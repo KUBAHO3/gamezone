@@ -1,9 +1,12 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
+import { GlobalStyles } from '../assets/styles/globalStyles'
 
 function About() {
   return (
-    <Text>About</Text>
+    <View style={GlobalStyles.container}>
+        <Text>About</Text>
+    </View>
   )
 }
 

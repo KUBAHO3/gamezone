@@ -15,9 +15,7 @@ export default function App() {
   
   if(fontsLoaded) {
   return (
-    <View>
       <Home />
-    </View>
   );
   } else {
     return (

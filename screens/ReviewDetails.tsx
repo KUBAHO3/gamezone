@@ -1,9 +1,12 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, View } from 'react-native'
+import { GlobalStyles } from '../assets/styles/globalStyles'
 
 function ReviewDetails() {
   return (
-    <Text>ReviewDetails</Text>
+    <View style={GlobalStyles.container}>
+        <Text>ReviewDetails</Text>
+    </View>
   )
 }
 
